@@ -23,7 +23,7 @@ let tiro;
 
 //EMPIEZA LA DEFINICIÓN:
 while (ganador == false) {
-    document.write('<div class="row row-cols-4">')
+    document.write('<div class="row row-cols-12 row-cols-md-4">')
   //tira local:
   tiro = Math.ceil(Math.random() * 2);
   console.log("Patea el equipo local...");
